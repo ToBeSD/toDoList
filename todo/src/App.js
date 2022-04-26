@@ -43,9 +43,9 @@ function Achive(props) {
 
   return (
     <div className='purpose'>
-      <h1>心臓をささげよう</h1>
+      <h1>To Do List</h1>
       <hr/>
-      <input type='text' placeholder='予定を作成しましょう！' onKeyDown={(e) => {
+      <input type='text' placeholder='오늘의 일정을 작성해 보세요！' onKeyDown={(e) => {
         if(e.key === 'Enter') {
           axios.post('http://localhost:8080/add', { data : {title: e.target.value } })
           .then((result) => {
