@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.purpose {
+  margin: auto;
+  width: 40%;
+  min-width: 614px;
+  height: 100%;
+  background-color: skyblue;
+}
+
+input {
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 6px 12px;
+  width: 70%;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.todo-list {
+  position: relative;
+  background-color:#26a7de;
+  border-radius: 8px;
+  margin: auto;
+  margin-bottom: 1vh;
+  width: 70%;
+  height: 50px;   
+  color: azure;
+}
+
+.todo-list span{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left : 50%;
+  top : 50%
+}
+
+.todo-list button{
+  float: right;
+  transform: translate(0%, 50%);
+}
+
+
